@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotsWinRate.Views.HeroPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Nazwa Herosa"/>
+                <Entry Text="{Binding HeroName}"/>
+                <Button Text="Dodaj Herosa" Command="{Binding AddHero}"/>
+                <ListView ItemsSource="{Binding Heroes, Mode=TwoWay}"
+                          SelectedItem="{Binding SelectedHero, Mode=TwoWay}"
+                          HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate >
+                            <ViewCell >
+                                <Label Text="{Binding Namaewa}"/>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

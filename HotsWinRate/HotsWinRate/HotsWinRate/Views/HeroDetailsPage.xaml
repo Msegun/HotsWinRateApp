@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotsWinRate.Views.HeroDetailsPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Hero Details:"/>
+                <Label Text="Hero Name:"/>
+                <Label Text="{Binding HeroName}"/>
+                <Label Text="Matches Played:"/>
+                <Label Text="{Binding HeroPlayed}"/>
+                <Label Text="Matches Won:"/>
+                <Label Text="{Binding HeroWin}"/>
+                <Button Text="+" Command="{Binding HeroHasWon}"/>
+                <Button Text="-" Command="{Binding HeroHasLost}"/>
+                <Button Text="Delete Hero" Command="{Binding DeleteHero}"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

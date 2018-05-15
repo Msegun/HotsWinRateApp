@@ -1,0 +1,9 @@
+c:\users\msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate\bin\Debug\netstandard2.0\HotsWinRate.deps.json
+c:\users\msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate\bin\Debug\netstandard2.0\HotsWinRate.dll
+c:\users\msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netstandard2.0\HotsWinRate.csprojAssemblyReference.cache
+c:\users\msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netstandard2.0\HotsWinRate.csproj.CoreCompileInputs.cache
+c:\users\msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netstandard2.0\HotsWinRate.AssemblyInfoInputs.cache
+c:\users\msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netstandard2.0\HotsWinRate.AssemblyInfo.cs
+c:\users\msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate\bin\Debug\netstandard2.0\HotsWinRate.pdb
+c:\users\msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netstandard2.0\HotsWinRate.dll
+c:\users\msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netstandard2.0\HotsWinRate.pdb
