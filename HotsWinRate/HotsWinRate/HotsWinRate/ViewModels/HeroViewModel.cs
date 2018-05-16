@@ -1,5 +1,6 @@
 ﻿using HotsWinRate.Models;
 using HotsWinRate.Views;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -41,30 +42,30 @@ namespace HotsWinRate.ViewModels
         public ObservableCollection<String> HeroList
         {
             get
-            {   /*
-                HttpWebRequest WebReq = (HttpWebRequest)WebRequest.Create(string.Format("https://api.coinmarketcap.com/v1/ticker/"));
+            {
+                HttpWebRequest WebReq = (HttpWebRequest)WebRequest.Create(string.Format("https://api.hotslogs.com/Public/Data/Heroes"));
 
                 WebReq.Method = "GET";
 
                 HttpWebResponse WebResp = (HttpWebResponse)WebReq.GetResponse();
 
                 string jsonString;
-                using (Stream stream = WebResp.GetResponseStream()) 
+                using (Stream stream = WebResp.GetResponseStream())
                 {
                     StreamReader reader = new StreamReader(stream, System.Text.Encoding.UTF8);
                     jsonString = reader.ReadToEnd();
                 }
-                 */
-                //List<ApiHero> items = JsonConvert.DeserializeObject<List<ApiHero>>(jsonString);
 
-                return new ObservableCollection<string>
+                List<ApiHero> items = JsonConvert.DeserializeObject<List<ApiHero>>(jsonString);
+
+                ObservableCollection<string> ApiHeroList = new ObservableCollection<string>();
+
+                foreach (ApiHero b in items)
                 {
-                "Assasin",
-                "Tank",
-                "Support",
-                "Multiclass",
-                "Other"
-                };
+                    ApiHeroList.Add(b.PrimaryName);
+                }
+
+                return ApiHeroList;
             }
             set
             {

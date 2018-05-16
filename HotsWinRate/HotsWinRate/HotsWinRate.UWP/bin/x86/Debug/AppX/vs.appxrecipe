@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-16T13:01:07.427</Modified>
+      <Modified>2018-05-16T13:17:20.519</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\HotsWinRate.UWP.exe">
       <PackagePath>entrypoint\HotsWinRate.UWP.exe</PackagePath>
-      <Modified>2018-05-16T13:01:05.775</Modified>
+      <Modified>2018-05-16T13:17:18.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Msegun\.nuget\packages\microsoft.data.sqlite.core\2.0.1\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -90,6 +90,10 @@
     <AppxPackagedFile Include="C:\Users\Msegun\.nuget\packages\microsoft.extensions.primitives\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
       <Modified>2017-07-24T22:48:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Msegun\.nuget\packages\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2018-03-24T16:44:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Msegun\.nuget\packages\remotion.linq\2.1.1\lib\portable-net45+win+wpa81+wp80\Remotion.Linq.dll">
       <PackagePath>Remotion.Linq.dll</PackagePath>
@@ -797,7 +801,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate\bin\Debug\netstandard2.0\HotsWinRate.dll">
       <PackagePath>HotsWinRate.dll</PackagePath>
-      <Modified>2018-05-16T13:00:57.910</Modified>
+      <Modified>2018-05-16T13:17:10.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -944,11 +948,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-05-16T13:01:05.534</Modified>
+      <Modified>2018-05-16T13:17:18.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-05-16T13:01:05.534</Modified>
+      <Modified>2018-05-16T13:17:18.662</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -965,7 +969,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\Core\HotsWinRate.UWP.exe">
       <PackagePath>HotsWinRate.UWP.exe</PackagePath>
-      <Modified>2018-05-16T13:01:07.418</Modified>
+      <Modified>2018-05-16T13:17:20.511</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

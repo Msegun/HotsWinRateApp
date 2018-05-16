@@ -553,3 +553,4 @@ C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinR
 C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\Newtonsoft.Json.dll

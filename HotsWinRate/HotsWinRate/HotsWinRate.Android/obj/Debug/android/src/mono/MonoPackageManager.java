@@ -122,6 +122,7 @@ class MonoPackageManager_Resources {
 		"Microsoft.Extensions.Logging.dll",
 		"Microsoft.Extensions.Options.dll",
 		"Microsoft.Extensions.Primitives.dll",
+		"Newtonsoft.Json.dll",
 		"Remotion.Linq.dll",
 		"SQLitePCLRaw.batteries_green.dll",
 		"SQLitePCLRaw.batteries_v2.dll",

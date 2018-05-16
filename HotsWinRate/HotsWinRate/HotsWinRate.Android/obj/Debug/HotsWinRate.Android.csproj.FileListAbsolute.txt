@@ -209,7 +209,6 @@ C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinR
 C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.Android\obj\Debug\linksrc\Xamarin.Forms.Core.pdb
 C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.Android\obj\Debug\linksrc\Xamarin.Forms.Xaml.pdb
 C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.Android\bin\Debug\HotsWinRate.Android.dll
-C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.Android\obj\Debug\linksrc\HotsWinRate.pdb
 C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.Android\obj\Debug\linksrc\HotsWinRate.Android.dll.mdb
 C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

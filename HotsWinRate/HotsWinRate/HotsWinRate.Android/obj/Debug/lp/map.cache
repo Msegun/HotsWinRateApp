@@ -53,3 +53,4 @@ System.Reflection.Extensions
 System.Threading
 System.Resources.ResourceManager
 System.Threading.Tasks
+Newtonsoft.Json
