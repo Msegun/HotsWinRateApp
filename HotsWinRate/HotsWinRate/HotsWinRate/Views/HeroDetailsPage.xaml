@@ -3,18 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HotsWinRate.Views.HeroDetailsPage">
     <ContentPage.Content>
-        <ScrollView>
+        <ScrollView BackgroundColor="LightSlateGray">
             <StackLayout>
-                <Label Text="Hero Details:"/>
-                <Label Text="Hero Name:"/>
-                <Label Text="{Binding HeroName}"/>
-                <Label Text="Matches Played:"/>
-                <Label Text="{Binding HeroPlayed}"/>
-                <Label Text="Matches Won:"/>
-                <Label Text="{Binding HeroWin}"/>
-                <Button Text="+" Command="{Binding HeroHasWon}"/>
-                <Button Text="-" Command="{Binding HeroHasLost}"/>
-                <Button Text="Delete Hero" Command="{Binding DeleteHero}"/>
+                <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center">
+                    <Label Text="Hero Details:" HorizontalOptions="CenterAndExpand"/>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Hero Name:" Grid.Row="0" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="{Binding HeroName}" Grid.Row="0" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="Matches Played:" Grid.Row="1" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="{Binding HeroPlayed}" Grid.Row="1" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="Matches Won:" Grid.Row="2" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="{Binding HeroWin}" Grid.Row="2" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                    </Grid>
+                </StackLayout>
+                <StackLayout VerticalOptions="End">
+                    <Button Text="+" Command="{Binding HeroHasWon}" BackgroundColor="Green"/>
+                    <Button Text="-" Command="{Binding HeroHasLost}" BackgroundColor="IndianRed"/>
+                    <Button Text="Restart" Command="{Binding HeroRestart}" BackgroundColor="Yellow"/>
+                    <Button Text="Delete Hero" Command="{Binding DeleteHero}" BackgroundColor="PaleVioletRed"/>
+                </StackLayout>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -3,14 +3,27 @@ using HotsWinRate.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
+using System.Net;
 using System.Text;
 using Xamarin.Forms;
+
 
 namespace HotsWinRate.ViewModels
 {
     public class HeroViewModel : BaseViewModel
     {
-        private string _heroName; //pole entry do dodania nazwy bohatera
+        public class ApiHero
+        {
+            public string PrimaryName { get; set; }
+            public string ImageURL { get; set; }
+            public string AttributeName { get; set; }
+            public string Group { get; set; }
+            public string SubGroup { get; set; }
+            public string Translations { get; set; }
+        }
+
+        private string _heroName;
         public string HeroName
         {
             get
@@ -23,6 +36,76 @@ namespace HotsWinRate.ViewModels
                 OnPropertyChanged(nameof(HeroName));
             }
         }
+
+        private ObservableCollection<String> _heroList;
+        public ObservableCollection<String> HeroList
+        {
+            get
+            {   /*
+                HttpWebRequest WebReq = (HttpWebRequest)WebRequest.Create(string.Format("https://api.coinmarketcap.com/v1/ticker/"));
+
+                WebReq.Method = "GET";
+
+                HttpWebResponse WebResp = (HttpWebResponse)WebReq.GetResponse();
+
+                string jsonString;
+                using (Stream stream = WebResp.GetResponseStream()) 
+                {
+                    StreamReader reader = new StreamReader(stream, System.Text.Encoding.UTF8);
+                    jsonString = reader.ReadToEnd();
+                }
+                 */
+                //List<ApiHero> items = JsonConvert.DeserializeObject<List<ApiHero>>(jsonString);
+
+                return new ObservableCollection<string>
+                {
+                "Assasin",
+                "Tank",
+                "Support",
+                "Multiclass",
+                "Other"
+                };
+            }
+            set
+            {
+                _heroList = value;
+                OnPropertyChanged("HeroList");
+            }
+        }
+
+
+        private ObservableCollection<String> _classList;
+        public ObservableCollection<String> ClassList
+        {
+            get { return new ObservableCollection<string>
+            {
+                "Assasin",
+                "Tank",
+                "Support",
+                "Multiclass",
+                "Other"
+            }; }
+            set
+            {
+                _classList = value;
+                OnPropertyChanged("ClassList");
+            }
+        }
+
+        private string _heroClass;
+        public string HeroClass
+        {
+            get
+            {
+                return _heroClass;
+            }
+            set
+            {
+                _heroClass = value;
+                OnPropertyChanged(nameof(HeroClass));
+            }
+        }
+
         private Hero _selectedHero;
         public Hero SelectedHero
         {
@@ -61,14 +144,24 @@ namespace HotsWinRate.ViewModels
             {
                 return new Command(async () =>
                 {
-                    var hero = new Hero()
+                    if (HeroName == null)
+                        HeroName =  "";
+                    if (HeroName.Length > 2)
                     {
-                        Namaewa = HeroName,
-                        Win = 0,
-                        Played = 0
-                    };
-                    await App.HeroRepository.AddHeroAsync(hero);
-                    RefreshHeroes.Execute(null);
+                        var hero = new Hero()
+                        {
+                            Namaewa = HeroName,
+                            Type = HeroClass,
+                            Win = 0,
+                            Played = 0
+                        };
+                        HeroName = String.Empty;
+                        HeroClass = String.Empty;
+                        await App.HeroRepository.AddHeroAsync(hero);
+                        RefreshHeroes.Execute(null);
+                    }
+                    else
+                        await Application.Current.MainPage.DisplayAlert("Error!", "Hero Name cannot be shorter than three letters", "Ok");
                 });
             }
         }

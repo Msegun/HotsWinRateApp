@@ -2832,11 +2832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\msegun\\source\\repos\\HotsWinRate\\HotsWinRate\\HotsWinRate\\HotsWinRate.csproj",
+      "projectUniqueName": "C:\\Users\\Msegun\\Documents\\GitHub\\HotsWinRateApp\\HotsWinRate\\HotsWinRate\\HotsWinRate\\HotsWinRate.csproj",
       "projectName": "HotsWinRate",
-      "projectPath": "c:\\users\\msegun\\source\\repos\\HotsWinRate\\HotsWinRate\\HotsWinRate\\HotsWinRate.csproj",
+      "projectPath": "C:\\Users\\Msegun\\Documents\\GitHub\\HotsWinRateApp\\HotsWinRate\\HotsWinRate\\HotsWinRate\\HotsWinRate.csproj",
       "packagesPath": "C:\\Users\\Msegun\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\msegun\\source\\repos\\HotsWinRate\\HotsWinRate\\HotsWinRate\\obj\\",
+      "outputPath": "C:\\Users\\Msegun\\Documents\\GitHub\\HotsWinRateApp\\HotsWinRate\\HotsWinRate\\HotsWinRate\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

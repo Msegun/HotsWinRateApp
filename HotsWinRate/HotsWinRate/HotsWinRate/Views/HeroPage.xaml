@@ -4,22 +4,31 @@
              x:Class="HotsWinRate.Views.HeroPage"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout>
-                <Label Text="Nazwa Herosa"/>
-                <Entry Text="{Binding HeroName}"/>
-                <Button Text="Dodaj Herosa" Command="{Binding AddHero}"/>
-                <ListView ItemsSource="{Binding Heroes, Mode=TwoWay}"
-                          SelectedItem="{Binding SelectedHero, Mode=TwoWay}"
-                          HasUnevenRows="True">
-                    <ListView.ItemTemplate>
-                        <DataTemplate >
-                            <ViewCell >
-                                <Label Text="{Binding Namaewa}"/>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
+        <ScrollView BackgroundColor="LightSlateGray">
+            <StackLayout VerticalOptions="Start">
+                <Picker ItemsSource ="{Binding HeroList}" SelectedItem="{Binding HeroName, Mode=TwoWay}"/>
+                <Label Text="Hero Name"/>
+                <Entry Text="{Binding HeroName}" Placeholder="e.g Jhoanna" TextColor="Black"/>
+                <Label Text="Hero Class"/>
+                <Picker ItemsSource ="{Binding ClassList}" SelectedItem="{Binding HeroClass, Mode=TwoWay}"/>
+                <Button Text="Dodaj Herosa" Command="{Binding AddHero}" BackgroundColor="WhiteSmoke"/>
+                <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                    <ListView ItemsSource="{Binding Heroes, Mode=TwoWay}"
+                              SelectedItem="{Binding SelectedHero, Mode=TwoWay}"
+                              HasUnevenRows="True">
+
+                        <ListView.ItemTemplate>
+                            <DataTemplate >
+                                <ViewCell>
+                                    <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                                        <Label Text="{Binding Namaewa}" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"/>
+                                        <Label Text="{Binding Type}" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"/>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

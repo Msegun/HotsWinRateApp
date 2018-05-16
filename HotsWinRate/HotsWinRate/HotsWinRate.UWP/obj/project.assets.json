@@ -16976,11 +16976,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Msegun\\source\\repos\\HotsWinRate\\HotsWinRate\\HotsWinRate.UWP\\HotsWinRate.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Msegun\\Documents\\GitHub\\HotsWinRateApp\\HotsWinRate\\HotsWinRate\\HotsWinRate.UWP\\HotsWinRate.UWP.csproj",
       "projectName": "HotsWinRate.UWP",
-      "projectPath": "C:\\Users\\Msegun\\source\\repos\\HotsWinRate\\HotsWinRate\\HotsWinRate.UWP\\HotsWinRate.UWP.csproj",
+      "projectPath": "C:\\Users\\Msegun\\Documents\\GitHub\\HotsWinRateApp\\HotsWinRate\\HotsWinRate\\HotsWinRate.UWP\\HotsWinRate.UWP.csproj",
       "packagesPath": "C:\\Users\\Msegun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Msegun\\source\\repos\\HotsWinRate\\HotsWinRate\\HotsWinRate.UWP\\obj\\",
+      "outputPath": "C:\\Users\\Msegun\\Documents\\GitHub\\HotsWinRateApp\\HotsWinRate\\HotsWinRate\\HotsWinRate.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -17000,8 +17000,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Msegun\\source\\repos\\HotsWinRate\\HotsWinRate\\HotsWinRate\\HotsWinRate.csproj": {
-              "projectPath": "C:\\Users\\Msegun\\source\\repos\\HotsWinRate\\HotsWinRate\\HotsWinRate\\HotsWinRate.csproj"
+            "C:\\Users\\Msegun\\Documents\\GitHub\\HotsWinRateApp\\HotsWinRate\\HotsWinRate\\HotsWinRate\\HotsWinRate.csproj": {
+              "projectPath": "C:\\Users\\Msegun\\Documents\\GitHub\\HotsWinRateApp\\HotsWinRate\\HotsWinRate\\HotsWinRate\\HotsWinRate.csproj"
             }
           }
         }

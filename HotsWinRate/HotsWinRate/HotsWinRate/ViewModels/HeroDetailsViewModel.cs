@@ -64,6 +64,21 @@ namespace HotsWinRate.ViewModels
             }
         }
 
+        public Command HeroRestart
+        {
+            get
+            {
+                return new Command(async () =>
+                {
+                    var hero = await App.HeroRepository.GetHeroByIdAsync(HeroId);
+                    hero.Played = 0;
+                    hero.Win = 0;
+                    await App.HeroRepository.UpdateHeroAsync(hero);
+                    await Application.Current.MainPage.Navigation.PopToRootAsync();
+                });
+            }
+        }
+
         public Command DeleteHero
         {
             get

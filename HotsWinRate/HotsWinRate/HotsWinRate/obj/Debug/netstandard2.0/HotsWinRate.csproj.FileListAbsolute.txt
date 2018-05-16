@@ -7,3 +7,12 @@ c:\users\msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netst
 c:\users\msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate\bin\Debug\netstandard2.0\HotsWinRate.pdb
 c:\users\msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netstandard2.0\HotsWinRate.dll
 c:\users\msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netstandard2.0\HotsWinRate.pdb
+C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate\bin\Debug\netstandard2.0\HotsWinRate.deps.json
+C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate\bin\Debug\netstandard2.0\HotsWinRate.dll
+C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate\bin\Debug\netstandard2.0\HotsWinRate.pdb
+C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netstandard2.0\HotsWinRate.csprojAssemblyReference.cache
+C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netstandard2.0\HotsWinRate.csproj.CoreCompileInputs.cache
+C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netstandard2.0\HotsWinRate.AssemblyInfoInputs.cache
+C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netstandard2.0\HotsWinRate.AssemblyInfo.cs
+C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netstandard2.0\HotsWinRate.dll
+C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate\obj\Debug\netstandard2.0\HotsWinRate.pdb

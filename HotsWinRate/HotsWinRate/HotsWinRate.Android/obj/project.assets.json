@@ -2455,11 +2455,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Msegun\\source\\repos\\HotsWinRate\\HotsWinRate\\HotsWinRate.Android\\HotsWinRate.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Msegun\\Documents\\GitHub\\HotsWinRateApp\\HotsWinRate\\HotsWinRate\\HotsWinRate.Android\\HotsWinRate.Android.csproj",
       "projectName": "HotsWinRate.Android",
-      "projectPath": "C:\\Users\\Msegun\\source\\repos\\HotsWinRate\\HotsWinRate\\HotsWinRate.Android\\HotsWinRate.Android.csproj",
+      "projectPath": "C:\\Users\\Msegun\\Documents\\GitHub\\HotsWinRateApp\\HotsWinRate\\HotsWinRate\\HotsWinRate.Android\\HotsWinRate.Android.csproj",
       "packagesPath": "C:\\Users\\Msegun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Msegun\\source\\repos\\HotsWinRate\\HotsWinRate\\HotsWinRate.Android\\obj\\",
+      "outputPath": "C:\\Users\\Msegun\\Documents\\GitHub\\HotsWinRateApp\\HotsWinRate\\HotsWinRate\\HotsWinRate.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2476,8 +2476,8 @@
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "C:\\Users\\Msegun\\source\\repos\\HotsWinRate\\HotsWinRate\\HotsWinRate\\HotsWinRate.csproj": {
-              "projectPath": "C:\\Users\\Msegun\\source\\repos\\HotsWinRate\\HotsWinRate\\HotsWinRate\\HotsWinRate.csproj"
+            "C:\\Users\\Msegun\\Documents\\GitHub\\HotsWinRateApp\\HotsWinRate\\HotsWinRate\\HotsWinRate\\HotsWinRate.csproj": {
+              "projectPath": "C:\\Users\\Msegun\\Documents\\GitHub\\HotsWinRateApp\\HotsWinRate\\HotsWinRate\\HotsWinRate\\HotsWinRate.csproj"
             }
           }
         }

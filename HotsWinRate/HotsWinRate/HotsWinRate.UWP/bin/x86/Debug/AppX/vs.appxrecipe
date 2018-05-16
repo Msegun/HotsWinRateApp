@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=7dce95dc-5a14-46e4-a308-40c61e42ac98</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>842BD26F531DA9CEC5158BA1048F213F4AB967C14DC63F0E10F718395E363B36</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>fc199067-e4d4-4081-b79f-7a953e4f6896_1.0.0.0_x86__500zeyxb3e5v2</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>fc199067-e4d4-4081-b79f-7a953e4f6896_500zeyxb3e5v2!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-15T14:43:51.828</Modified>
+      <Modified>2018-05-16T13:01:07.427</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\HotsWinRate.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\HotsWinRate.UWP.exe">
       <PackagePath>entrypoint\HotsWinRate.UWP.exe</PackagePath>
-      <Modified>2018-05-15T14:43:50.832</Modified>
+      <Modified>2018-05-16T13:01:05.775</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Msegun\.nuget\packages\microsoft.data.sqlite.core\2.0.1\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -795,160 +795,160 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2018-04-30T16:41:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate\bin\Debug\netstandard2.0\HotsWinRate.dll">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate\bin\Debug\netstandard2.0\HotsWinRate.dll">
       <PackagePath>HotsWinRate.dll</PackagePath>
-      <Modified>2018-05-15T14:43:43.640</Modified>
+      <Modified>2018-05-16T13:00:57.910</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:12.910</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:12.925</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:12.931</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.011</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.014</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.020</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.027</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.129</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.132</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.278</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.423</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.427</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.431</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.438</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.596</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.609</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.615</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.618</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-15T12:25:13.623</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-05-15T12:25:13.751</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\HotsWinRate.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\HotsWinRate.UWP.xr.xml">
       <PackagePath>HotsWinRate.UWP.xr.xml</PackagePath>
       <Modified>2018-05-15T13:08:11.856</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-05-15T14:43:50.618</Modified>
+      <Modified>2018-05-16T13:01:05.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-05-15T14:43:50.619</Modified>
+      <Modified>2018-05-16T13:01:05.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -958,14 +958,14 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2018-04-30T16:41:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-15T13:40:20.332</Modified>
+      <Modified>2018-05-15T15:02:34.687</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Msegun\source\repos\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\Core\HotsWinRate.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Msegun\Documents\GitHub\HotsWinRateApp\HotsWinRate\HotsWinRate\HotsWinRate.UWP\bin\x86\Debug\Core\HotsWinRate.UWP.exe">
       <PackagePath>HotsWinRate.UWP.exe</PackagePath>
-      <Modified>2018-05-15T14:43:51.821</Modified>
+      <Modified>2018-05-16T13:01:07.418</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
