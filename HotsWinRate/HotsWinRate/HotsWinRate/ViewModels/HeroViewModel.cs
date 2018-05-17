@@ -43,29 +43,42 @@ namespace HotsWinRate.ViewModels
         {
             get
             {
-                HttpWebRequest WebReq = (HttpWebRequest)WebRequest.Create(string.Format("https://api.hotslogs.com/Public/Data/Heroes"));
-
-                WebReq.Method = "GET";
-
-                HttpWebResponse WebResp = (HttpWebResponse)WebReq.GetResponse();
-
-                string jsonString;
-                using (Stream stream = WebResp.GetResponseStream())
+                try
                 {
-                    StreamReader reader = new StreamReader(stream, System.Text.Encoding.UTF8);
-                    jsonString = reader.ReadToEnd();
-                }
+                    HttpWebRequest WebReq = (HttpWebRequest)WebRequest.Create(string.Format("https://api.hotslogs.com/Public/Data/Heroes"));
 
-                List<ApiHero> items = JsonConvert.DeserializeObject<List<ApiHero>>(jsonString);
+                    WebReq.Method = "GET";
 
-                ObservableCollection<string> ApiHeroList = new ObservableCollection<string>();
+                    HttpWebResponse WebResp = (HttpWebResponse)WebReq.GetResponse();
+                    if (WebResp.StatusCode == HttpStatusCode.OK)
+                    {
+                        string jsonString;
+                        using (Stream stream = WebResp.GetResponseStream())
+                        {
+                            StreamReader reader = new StreamReader(stream, System.Text.Encoding.UTF8);
+                            jsonString = reader.ReadToEnd();
+                        }
 
-                foreach (ApiHero b in items)
+                        List<ApiHero> items = JsonConvert.DeserializeObject<List<ApiHero>>(jsonString);
+
+                        ObservableCollection<string> ApiHeroList = new ObservableCollection<string>();
+
+                        foreach (ApiHero b in items)
+                        {
+                            ApiHeroList.Add(b.PrimaryName);
+                        }
+
+                        return ApiHeroList;
+                    }
+                }catch(WebException e){ }
+
+                return new ObservableCollection<string>
                 {
-                    ApiHeroList.Add(b.PrimaryName);
-                }
-
-                return ApiHeroList;
+                        "Alakarak",
+                        "Ana",
+                        "Alarak",
+                        "Other"
+                };
             }
             set
             {
@@ -83,6 +96,7 @@ namespace HotsWinRate.ViewModels
                 "Assasin",
                 "Tank",
                 "Support",
+                "Specialist",
                 "Multiclass",
                 "Other"
             }; }

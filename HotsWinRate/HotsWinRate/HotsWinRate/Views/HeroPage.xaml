@@ -11,7 +11,7 @@
                 <Entry Text="{Binding HeroName}" Placeholder="e.g Jhoanna" TextColor="Black"/>
                 <Label Text="Hero Class"/>
                 <Picker ItemsSource ="{Binding ClassList}" SelectedItem="{Binding HeroClass, Mode=TwoWay}"/>
-                <Button Text="Dodaj Herosa" Command="{Binding AddHero}" BackgroundColor="WhiteSmoke"/>
+                <Button Text="Add your Champion" Command="{Binding AddHero}" BackgroundColor="WhiteSmoke"/>
                 <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
                     <ListView ItemsSource="{Binding Heroes, Mode=TwoWay}"
                               SelectedItem="{Binding SelectedHero, Mode=TwoWay}"
